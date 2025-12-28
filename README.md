@@ -1,16 +1,24 @@
-## Hi there 👋
+## Eh... Hey there👋
 
-<!--
-**ejetaxeblevich/ejetaxeblevich** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+> [!CAUTION]
+> This is HARD TRUCK APOCALYPSE game modder! ***Yanderedev included!!!***
+> 
+> Python attempts also possible!💀💀💀
 
-Here are some ideas to get you started:
+## These guys know what they're saying about me!
+Damn, i'm like it❤️❤️❤️
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+> **__nEmPoBu4__**
+> ```
+> шиз
+> ```
+
+> **ICAS14**
+> ```
+> Да ну нах, чернокнижник
+> ```
+
+> **Seel**
+> ```
+> воистину исполинского уровня говённости костыли приходится использовать людям 😭
+> ```
