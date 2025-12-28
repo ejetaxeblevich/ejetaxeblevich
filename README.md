@@ -26,8 +26,14 @@ Trying to learning and use:
 
 </div>
 
+### Modifications:
+
 - **[ExRouletteMod (HTA)](https://github.com/ejetaxeblevich/ExRouletteMod)** - fun mod for 10 minutes, who's try copying original [Buckshot Roulette](https://store.steampowered.com/app/2835570/Buckshot_Roulette/) game
 
+### Lua-modules:
+
+- **[XMLParser (HTA)](https://github.com/ejetaxeblevich/XMLParser)** - parsing `.xml` files from script
+- **[Improved3D (HTA)](https://github.com/ejetaxeblevich/Improved3D)** - advanced 3d manipulation for scripts
 
 
 <div align="center">
