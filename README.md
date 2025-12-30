@@ -33,7 +33,7 @@ Trying to learning and use:
 ### Lua-modules:
 
 - **[XMLParser (HTA)](https://github.com/ejetaxeblevich/XMLParser)** - parsing `.xml` files from script
-- **[Improved3D (HTA)](https://github.com/ejetaxeblevich/Improved3D)** - advanced 3d manipulation for scripts
+- **[Improved3D (HTA)](https://github.com/ejetaxeblevich/Improved3D)** - advanced space manipulation for scripts
 
 
 <div align="center">
