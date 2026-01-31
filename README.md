@@ -28,12 +28,12 @@ Trying to learning and use:
 
 ### Modifications:
 
-- **[ExRouletteMod (HTA)](https://github.com/ejetaxeblevich/ExRouletteMod)** - fun mod for 10 minutes, who's try copying original [Buckshot Roulette](https://store.steampowered.com/app/2835570/Buckshot_Roulette/) game
+- **[ExRouletteMod (HTA)](https://github.com/ejetaxeblevich/ExRouletteMod)** - fun mod for 10 minutes, who's try copying original [Buckshot Roulette](https://store.steampowered.com/app/2835570/Buckshot_Roulette/) game. `50+ downloads`
 
 ### Lua-modules:
 
-- **[XMLParser (HTA)](https://github.com/ejetaxeblevich/XMLParser)** - parsing `.xml` files from script
-- **[Improved3D (HTA)](https://github.com/ejetaxeblevich/Improved3D)** - advanced space manipulation for scripts
+- **[XMLParser (HTA)](https://github.com/ejetaxeblevich/XMLParser)** - parsing `.xml` files from script. `2+ downloads`
+- **[Improved3D (HTA)](https://github.com/ejetaxeblevich/Improved3D)** - advanced space manipulation for scripts. `4+ downloads`
 
 
 <div align="center">
