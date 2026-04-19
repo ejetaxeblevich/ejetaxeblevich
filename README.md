@@ -28,7 +28,7 @@ Trying to learning and use:
 
 ### Modifications:
 
-- **[ExRouletteMod (HTA)](https://github.com/ejetaxeblevich/ExRouletteMod)** - fun mod for 10 minutes, who's try copying original [Buckshot Roulette](https://store.steampowered.com/app/2835570/Buckshot_Roulette/) game. `60+ downloads`
+- **[ExRouletteMod (HTA)](https://github.com/ejetaxeblevich/ExRouletteMod)** - fun mod for 10 minutes, who's try copying original [Buckshot Roulette](https://store.steampowered.com/app/2835570/Buckshot_Roulette/) game. `70+ downloads`
 
 ### Lua-modules:
 
