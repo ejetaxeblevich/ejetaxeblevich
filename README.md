@@ -35,6 +35,9 @@ Trying to learning and use:
 - **[XMLParser (HTA)](https://github.com/ejetaxeblevich/XMLParser)** - parsing `.xml` files from script. `3+ downloads`
 - **[Improved3D (HTA)](https://github.com/ejetaxeblevich/Improved3D)** - advanced space manipulation for scripts. `8+ downloads`
 
+### Others:
+
+- **[HTACursor](https://github.com/ejetaxeblevich/HTACursor)** - fun windows cursor style.
 
 <div align="center">
   
