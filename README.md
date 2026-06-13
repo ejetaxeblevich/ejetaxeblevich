@@ -38,6 +38,7 @@ Trying to learning and use:
 ### Others:
 
 - **[HTACursor](https://github.com/ejetaxeblevich/HTACursor)** - fun windows cursor style.
+- **[HTALiveSplit](https://github.com/ejetaxeblevich/HTALiveSplit)** - python autosplitter for speedruns.
 
 <div align="center">
   
