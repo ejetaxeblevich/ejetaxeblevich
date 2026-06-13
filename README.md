@@ -15,8 +15,7 @@ I'm not a developer of something, just doing something for fun after work✨✨�
 
 Trying to learning and use:
 - Lua;
-- Python (Flet lib.);
-- Xml
+- Python.
 
 
 
