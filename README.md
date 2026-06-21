@@ -32,12 +32,13 @@ Trying to learning and use:
 ### Lua-modules:
 
 - **[XMLParser (HTA)](https://github.com/ejetaxeblevich/XMLParser)** - parsing `.xml` files from script. `3+ downloads`
-- **[Improved3D (HTA)](https://github.com/ejetaxeblevich/Improved3D)** - advanced space manipulation for scripts. `8+ downloads`
+- **[Improved3D (HTA)](https://github.com/ejetaxeblevich/Improved3D)** - advanced space manipulation for scripts. `9+ downloads`
 
 ### Others:
 
+- **[HTALiveSplit](https://github.com/ejetaxeblevich/HTALiveSplit)** - python autosplitter for speedruns. `2+ downloads`
 - **[HTACursor](https://github.com/ejetaxeblevich/HTACursor)** - fun windows cursor style.
-- **[HTALiveSplit](https://github.com/ejetaxeblevich/HTALiveSplit)** - python autosplitter for speedruns.
+
 
 <div align="center">
   
