@@ -32,7 +32,7 @@ Trying to learning and use:
 ### Lua-modules:
 
 - **[XMLParser (HTA)](https://github.com/ejetaxeblevich/XMLParser)** - parsing `.xml` files from script. `3+ downloads`
-- **[Improved3D (HTA)](https://github.com/ejetaxeblevich/Improved3D)** - advanced space manipulation for scripts. `9+ downloads`
+- **[Improved3D (HTA)](https://github.com/ejetaxeblevich/Improved3D)** - advanced space manipulation for scripts. `10+ downloads`
 - **[LuaExtended (HTA)](https://github.com/ejetaxeblevich/LuaExtended)** - collection of useful small functions.
 
 ### Others:
