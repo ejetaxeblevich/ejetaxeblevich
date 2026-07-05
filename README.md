@@ -34,6 +34,7 @@ Trying to learning and use:
 - **[XMLParser (HTA)](https://github.com/ejetaxeblevich/XMLParser)** - parsing `.xml` files from script. `3+ downloads`
 - **[Improved3D (HTA)](https://github.com/ejetaxeblevich/Improved3D)** - advanced space manipulation for scripts. `10+ downloads`
 - **[LuaExtended (HTA)](https://github.com/ejetaxeblevich/LuaExtended)** - collection of useful small functions.
+- **[GameSave (HTA)](https://github.com/ejetaxeblevich/GameSave)** - load game save file & fix relationship bug.
 
 ### Others:
 
