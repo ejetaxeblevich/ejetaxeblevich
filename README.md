@@ -14,8 +14,8 @@
 I'm not a developer of something, just doing something for fun after work✨✨✨
 
 Trying to learning and use:
-- Lua;
-- Python.
+- Lua
+- Python
 
 
 
@@ -32,7 +32,7 @@ Trying to learning and use:
 ### Lua-modules:
 
 - **[XMLParser (HTA)](https://github.com/ejetaxeblevich/XMLParser)** - parsing `.xml` files from script. `3+ downloads`
-- **[Improved3D (HTA)](https://github.com/ejetaxeblevich/Improved3D)** - advanced space manipulation for scripts. `10+ downloads`
+- **[Improved3D (HTA)](https://github.com/ejetaxeblevich/Improved3D)** - advanced space manipulation for scripts. `11+ downloads`
 - **[LuaExtended (HTA)](https://github.com/ejetaxeblevich/LuaExtended)** - collection of useful small functions.
 - **[GameSave (HTA)](https://github.com/ejetaxeblevich/GameSave)** - load game save file & fix relationship bug.
 
