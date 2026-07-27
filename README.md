@@ -32,13 +32,13 @@ Trying to learning and use:
 ### Lua-modules:
 
 - **[XMLParser (HTA)](https://github.com/ejetaxeblevich/XMLParser)** - parsing `.xml` files from script. `3+ downloads`
-- **[Improved3D (HTA)](https://github.com/ejetaxeblevich/Improved3D)** - advanced space manipulation for scripts. `17+ downloads`
+- **[Improved3D (HTA)](https://github.com/ejetaxeblevich/Improved3D)** - advanced space manipulation for scripts. `19+ downloads`
 - **[LuaExtended (HTA)](https://github.com/ejetaxeblevich/LuaExtended)** - collection of useful small functions. `1+ downloads`
 - **[GameSave (HTA)](https://github.com/ejetaxeblevich/GameSave)** - load game save file & fix relationship bug.
 
 ### Others:
 
-- **[HTALiveSplit](https://github.com/ejetaxeblevich/HTALiveSplit)** - python autosplitter for speedruns. `21+ downloads`
+- **[HTALiveSplit](https://github.com/ejetaxeblevich/HTALiveSplit)** - python autosplitter for speedruns. `23+ downloads`
 - **[HTACursor](https://github.com/ejetaxeblevich/HTACursor)** - fun windows cursor style.
 
 
