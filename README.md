@@ -49,7 +49,7 @@ Trying to learning and use:
 ![LuaExtendedVersion](https://img.shields.io/badge/Latest%20version-2.2-blue) ![LuaExtendedDownloads](https://img.shields.io/badge/Total%20downloads-2%2B-green)
 
 - **[GameSave (HTA)](https://github.com/ejetaxeblevich/GameSave)** - load game save file & fix relationship bug.
-![GameSaveVersion](https://img.shields.io/badge/Latest%20version-2.2-blue) ![GameSaveDownloads](https://img.shields.io/badge/Total%20downloads-0%2B-gray)
+![GameSaveVersion](https://img.shields.io/badge/Latest%20version-1.1.1-blue) ![GameSaveDownloads](https://img.shields.io/badge/Total%20downloads-0%2B-gray)
 
 
 ### Others:
