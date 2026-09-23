@@ -28,38 +28,77 @@ Trying to learning and use:
 
 ### Modifications:
 
-- **[ExRouletteMod (HTA)](https://github.com/ejetaxeblevich/ExRouletteMod)** - fun mod for 10 minutes, who's try copying original [Buckshot Roulette](https://store.steampowered.com/app/2835570/Buckshot_Roulette/) game.
-
-  ![ExRouletteModStatus](https://img.shields.io/badge/Status-Released-yellow) ![ExRouletteModVersion](https://img.shields.io/badge/Latest%20version-1.1-blue) ![ExRouletteModDownloads](https://img.shields.io/badge/Total%20downloads-84%2B-purple)
-
-- **ExplorerMod (HTA)** - big mod for several hours of gameplay, adding a new plot and maps.
-
-  ![ExplorerModStatus](https://img.shields.io/badge/Status-Complicated-black) ![ExplorerModVersion](https://img.shields.io/badge/Alpha%20version-26%2F07%2F03-blue) <!-- ![ExplorerModDownloads](https://img.shields.io/badge/Total%20downloads-0-gray) -->
+<table>
+  <tbody align="center">
+    <!-- ExRouletteMod -->
+    <tr>
+      <td><a href="https://github.com/ejetaxeblevich/ExRouletteMod">ExRouletteMod</a> <img src="https://img.shields.io/badge/%F0%9F%A1%87_84%2B-purple" alt="ExRouletteModDownloads" /></td>
+      <td>Fun mod for 10 minutes, who's try copying original <a href="https://store.steampowered.com/app/2835570/Buckshot_Roulette/">Buckshot Roulette</a> game.</td>
+      <td><img src="https://img.shields.io/badge/Released-yellow" alt="ExRouletteModStatus" /> <img src="https://img.shields.io/badge/1.1-blue" alt="ExRouletteModVersion" /></td>
+    </tr>
+    <!-- ExplorerMod -->
+    <tr>
+      <td><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">ExplorerMod</a> <img src="https://img.shields.io/badge/%F0%9F%A1%87_0-gray" alt="ExplorerModDownloads" /></td>
+      <td>Big mod for several hours of gameplay, adding a new plot and maps.</td>
+      <td><img src="https://img.shields.io/badge/Complicated-black" alt="ExplorerModStatus" /> <img src="https://img.shields.io/badge/26%2F07%2F03-blue" alt="ExplorerModVersion" /></td>
+    </tr>
+  </tbody>
+</table>
 
 
 ### Lua-modules:
 
-- **[XMLParser (HTA)](https://github.com/ejetaxeblevich/XMLParser)** - parsing `.xml` files from script.
-![XMLParserVersion](https://img.shields.io/badge/Latest%20version-1.2.3-blue) ![XMLParserDownloads](https://img.shields.io/badge/Total%20downloads-3%2B-green)
-
-- **[Improved3D (HTA)](https://github.com/ejetaxeblevich/Improved3D)** - advanced space manipulation for scripts.
-![Improved3DVersion](https://img.shields.io/badge/Latest%20version-1.6-blue) ![Improved3DDownloads](https://img.shields.io/badge/Total%20downloads-25%2B-purple)
-
-- **[LuaExtended (HTA)](https://github.com/ejetaxeblevich/LuaExtended)** - collection of useful small functions.
-![LuaExtendedVersion](https://img.shields.io/badge/Latest%20version-2.4-blue) ![LuaExtendedDownloads](https://img.shields.io/badge/Total%20downloads-3%2B-green)
-
-- **[GameSave (HTA)](https://github.com/ejetaxeblevich/GameSave)** - load game save file & fix relationship bug.
-![GameSaveVersion](https://img.shields.io/badge/Latest%20version-1.1.1-blue) ![GameSaveDownloads](https://img.shields.io/badge/Total%20downloads-1%2B-gray)
+<table>
+  <tbody align="center">
+    <!-- Improved3D -->
+    <tr>
+      <td><a href="https://github.com/ejetaxeblevich/Improved3D">Improved3D</a> <img src="https://img.shields.io/badge/%F0%9F%A1%87_25%2B-purple" alt="Improved3DDownloads" /></td>
+      <td>Advanced space manipulation for lua scripts.</td>
+      <td><img src="https://img.shields.io/badge/Released-yellow" alt="Improved3DStatus" /> <img src="https://img.shields.io/badge/1.6-blue" alt="Improved3DVersion" /></td>
+    </tr>
+    <!-- XMLParser -->
+    <tr>
+      <td><a href="https://github.com/ejetaxeblevich/XMLParser">XMLParser</a> <img src="https://img.shields.io/badge/%F0%9F%A1%87_3%2B-green" alt="XMLParserDownloads" /></td>
+      <td>Parsing <code>.xml</code> files from lua scripts.</td>
+      <td><img src="https://img.shields.io/badge/Produced-orange" alt="XMLParserStatus" /> <img src="https://img.shields.io/badge/1.2.3-blue" alt="XMLParserVersion" /></td>
+    </tr>
+    <!-- LuaExtended -->
+    <tr>
+      <td><a href="https://github.com/ejetaxeblevich/LuaExtended">LuaExtended</a> <img src="https://img.shields.io/badge/%F0%9F%A1%87_3%2B-green" alt="LuaExtendedDownloads" /></td>
+      <td>Collection of useful small functions for lua scripts.</td>
+      <td><img src="https://img.shields.io/badge/Released-yellow" alt="LuaExtendedStatus" /> <img src="https://img.shields.io/badge/2.4-blue" alt="LuaExtendedVersion" /></td>
+    </tr>
+    <!-- GameSave -->
+    <tr>
+      <td><a href="https://github.com/ejetaxeblevich/GameSave">GameSave</a> <img src="https://img.shields.io/badge/%F0%9F%A1%87_1%2B-gray" alt="GameSaveDownloads" /></td>
+      <td>Load game save file & fix relationship bug.</td>
+      <td><img src="https://img.shields.io/badge/Beta-brown" alt="GameSaveStatus" /> <img src="https://img.shields.io/badge/1.1.1-blue" alt="GameSaveVersion" /></td>
+    </tr>
+  </tbody>
+</table>
 
 
 ### Others:
 
-- **[HTALiveSplit](https://github.com/ejetaxeblevich/HTALiveSplit)** - python autosplitter for speedruns.
-![HTALiveSplitVersion](https://img.shields.io/badge/Latest%20version-1.4-blue) ![HTALiveSplitDownloads](https://img.shields.io/badge/Total%20downloads-25%2B-purple)
+<table>
+  <tbody align="center">
+    <!-- HTALiveSplit -->
+    <tr>
+      <td><a href="https://github.com/ejetaxeblevich/HTALiveSplit">HTALiveSplit</a> <img src="https://img.shields.io/badge/%F0%9F%A1%87_25%2B-purple" alt="HTALiveSplitDownloads" /></td>
+      <td>Python autosplitter for speedruns.</td>
+      <td><img src="https://img.shields.io/badge/Released-yellow" alt="HTALiveSplitStatus" /> <img src="https://img.shields.io/badge/1.4-blue" alt="HTALiveSplitVersion" /></td>
+    </tr>
+    <!-- HTACursor -->
+    <tr>
+      <td><a href="https://github.com/ejetaxeblevich/HTACursor">HTACursor</a> <img src="https://img.shields.io/badge/%F0%9F%A1%87_1%2B-gray" alt="HTACursorDownloads" /></td>
+      <td>Fun Windows cursor style. <img src="https://github.com/ejetaxeblevich/HTACursor/blob/main/Source%20images/strelka0.png" alt="HTACursorIco" /></td>
+      <td><img src="https://img.shields.io/badge/Released-yellow" alt="HTACursorStatus" /> <!-- <img src="https://img.shields.io/badge/26%2F07%2F03-blue" alt="HTACursorVersion" /> --></td>
+    </tr>
+  </tbody>
+</table>
 
-- **[HTACursor](https://github.com/ejetaxeblevich/HTACursor)** - fun windows cursor style.
-![GameSaveDownloads](https://img.shields.io/badge/Total%20downloads-1%2B-gray)
 
+----
 
 <div align="center">
   
