@@ -199,7 +199,7 @@ Damn, i'm like it❤️❤️❤️
 > ```
 > 🇬🇧: *people have to use crutches at a truly gigantic level of shit 😭*
 
-> **stakan**
+> **stakanyash**
 > ```
 > псих бл
 > ```
