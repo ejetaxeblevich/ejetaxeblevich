@@ -36,7 +36,7 @@ Trying to learning and use:
         <a href="https://github.com/ejetaxeblevich/ExRouletteMod">ExRouletteMod</a>
       </td>
       <td>
-        Fun mod for 10 minutes, who's try copying original <a href="https://store.steampowered.com/app/2835570/Buckshot_Roulette/">Buckshot Roulette</a> game.
+        Fun mod for 40 minutes, who's try copying original <a href="https://store.steampowered.com/app/2835570/Buckshot_Roulette/">Buckshot Roulette</a> game.
       </td>
       <td>
         <img src="https://img.shields.io/github/downloads/ejetaxeblevich/ExRouletteMod/total?label=%F0%9F%A1%87&labelColor=purple&color=purple" alt="ExRouletteModDownloads" />
