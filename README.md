@@ -161,7 +161,7 @@ Trying to learning and use:
         Fun Windows cursor style. <img src="https://github.com/ejetaxeblevich/HTACursor/blob/main/Source%20images/strelka0.png" alt="HTACursorIco" />
       </td>
       <td>
-        <img src="https://img.shields.io/github/downloads/ejetaxeblevich/HTACursor/total?label=%F0%9F%A1%87&labelColor=gray&color=gray" alt="HTACursorDownloads" />
+        <img src="https://img.shields.io/github/downloads/ejetaxeblevich/HTACursor/total?label=%F0%9F%A1%87&labelColor=green&color=green" alt="HTACursorDownloads" />
       </td>
       <td>
         <img src="https://img.shields.io/github/v/release/ejetaxeblevich/HTACursor?display_name=release&label=Released&labelColor=yellow" alt="HTACursorVersion" />
