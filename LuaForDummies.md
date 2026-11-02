@@ -1,6 +1,3 @@
-> [!CAUTION]
-> В разработке!
-
 # Lua 5.0 для самых маленьких
 
 Модификация игры [Ex Machina](https://store.steampowered.com/app/285500/Hard_Truck_Apocalypse__Ex_Machina/).
@@ -35,6 +32,9 @@
     </tr>
     <tr>
       <td><a href="#funcs">Функции и методы</a></td>
+    </tr>
+    <tr>
+      <td><a href="#lua">Все Lua-сущности в игре</a></td>
     </tr>
   </tbody>
 </table>
@@ -1446,6 +1446,44 @@ GetPlayerVehicle():AddModifier("hp", "= 0")
 - Для получения значения: `.`.
 
 > Но бывают случаи, когда `.` адекватно работает и для методов! Например, вы могли такое видеть у Lua-функций.
+
+***
+
+<div align="right">
+  <a href="#top">Наверх ↑</a>
+</div>
+
+<a id="lua"></a>
+
+## Все Lua-сущности в игре
+
+*Все значения взяты из файла `exm.properties`!*
+
+### Чистая Lua:
+
+| Из версии Lua | Категория | Сущности |
+|-----------|-----------|-----------|
+| Lua 4.0 | Ключевые слова языка | `and` `break` `do` `else` `elseif` `end` `false` `for` `function` `if` `in` `local` `nil` `not` `or` `repeat` `return` `then` `true` `until` `while` |
+| Lua 4.0 | Базовые функции языка | `_VERSION` `assert` `collectgarbage` `dofile` `error` `gcinfo` `loadfile` `loadstring` `print` `tonumber` `tostring` `type` `unpack` `trigger` `ALERT` `_ERRORMESSAGE` `_INPUT` `_PROMPT` `_OUTPUT` `_STDERR` `_STDIN` `_STDOUT` `call` `dostring` `foreach` `foreachi` `getn` `globals` `newtype` `rawget` `rawset` `require` `sort` `tinsert` `tremove` |
+| Lua 4.0 | Математические и строчные манипуляции | `abs` `acos` `asin` `atan` `atan2` `ceil` `cos` `deg` `exp` `floor` `format` `frexp` `gsub` `ldexp` `log` `log10` `max` `min` `mod` `rad` `random` `randomseed` `sin` `sqrt` `strbyte` `strchar` `strfind` `strlen` `strlower` `strrep` `strsub` `strupper` `tan` |
+| Lua 4.0 | Средства чтения/записи и системные средства | `openfile` `closefile` `readfrom` `writeto` `appendto` `remove` `rename` `flush` `seek` `tmpfile` `tmpname` `read` `write` `clock` `date` `difftime` `execute` `exit` `getenv` `setlocale` `time` |
+|  |  |  |
+| Lua 5.0 | Базовые функции языка | `_G` `getfenv` `getmetatable` `ipairs` `loadlib` `next` `pairs` `pcall` `rawegal` `rawget` `rawset` `require` `setfenv` `setmetatable` `xpcall` `string` `table` `math` `coroutine` `io` `os` *`debug`(debug отключен)* |
+| Lua 5.0 | Строчные манипуляции | `string.byte` `string.char` `string.dump` `string.find` `string.len` `string.lower` `string.rep` `string.sub` `string.upper` `string.format` `string.gfind` `string.gsub` |
+| Lua 5.0 | Математические манипуляции | `math.abs` `math.acos` `math.asin` `math.atan` `math.atan2` `math.ceil` `math.cos` `math.deg` `math.exp` `math.floor` `math.frexp` `math.ldexp` `math.log` `math.log10` `math.max` `math.min` `math.mod` `math.pi` `math.rad` `math.random` `math.randomseed` `math.sin` `math.sqrt` `math.tan` |
+| Lua 5.0 | Табличные манипуляции | `table.concat` `table.foreach` `table.foreachi` `table.getn` `table.sort` `table.insert` `table.remove` `table.setn` |
+| Lua 5.0 | Средства корутин | `coroutine.create` `coroutine.resume` `coroutine.status` `coroutine.wrap` `coroutine.yield` |
+| Lua 5.0 | Средства чтения/записи | `io.close` `io.flush` `io.input` `io.lines` `io.open` `io.output` `io.read` `io.tmpfile` `io.type` `io.write` `io.stdin` `io.stdout` `io.stderr` |
+| Lua 5.0 | Системные средства | `os.clock` `os.date` `os.difftime` `os.execute` `os.exit` `os.getenv` `os.remove` `os.rename` `os.setlocale` `os.time` `os.tmpname` |
+| Lua 5.0 | Средства вывода | `print` `LOG` |
+
+### Игровые Lua-сущности:
+
+| Категория | Сущности |
+|-----------|-----------|
+| Функции и методы объектов | `Activate` `Deactivate` `NextState` `SetPosition` `GetPosition` `SetRotation` `GetRotation` `SetDirection` `GetDirection` `GetLinearVelocity` `SetLinearVelocity` `GetAngularVelocity` `SetAngularVelocity` `GetSkin` `SetSkin` `IsVisible` `AddWalkPathByName` `SetWalkPathByName` `GetMoney` `AddMoney` `GetHealth` `GetMaxHealth` `GetFuel` `GetMaxFuel` `GetVehicle` `AddItemsToRepository` `RemoveItemsFromRepository` `HasAmountOfItemsInRepository` `CanPlaceItemsToRepository` `IsQuestItemPresent` `AddQuestItem` `RemoveQuestItem` `SetScale` `GetScale` `SetMass` `SetNodeAction` `SetNextForAnimation` `StartMotionToPort` `InitPosition` `Show` `Hide` `SetDestination` `HoldFire` `GetNumVehicles` `SpawnCaravanToLocation` `GetOpenGateToPlayer` `SetOpenGateToPlayer` `SetRuined` `IsRuined` `AddEvent` `DelEvent` `DelEventObj` `GetTriggeredObjectAmount` `GetTriggeredObjectID` `AddTriggeredObjectID` `GetCount` `IncCount` `IsActivated` `Activate` `Deactivate` `GetCallEvent` `GetCallObjName` `GetCallObjId` `Var` `SetRandomSkin` `SetGamePositionOnGround` `GetSize` `GetCabin` `GetBasket` `GetChassis` `GetHealth` `GetMaxHealth` `GetFuel` `GetMaxFuel` `SetExternalPathByName` `SetCanBeDistractedFromMoving` `PlaceToEndOfPath` `SetThrottle` `GetThrottle` `SetCustomControlEnabled` `SetSteer` `GetSteer` `FireFromWeaponCustom` `FireFromWeaponCustom2` `HoldFire` `SetCustomControlWeapons` `GetCustomControlWeapons` `SetCustomControlWeaponsTarget` `GetCustomControlWeaponsTarget` `SetCustomControlWeaponsTargetObj` `GetCustomControlWeaponsTargetObj` `SetCustomLinearVelocity` `AddItemsToRepository` `RemoveItemsFromRepository` `HasAmountOfItemsInRepository` `CanPlaceItemsToRepository` `AddObjectToRepository` `TakeOffAllGuns` `AttachTrailer` `DetachTrailer` `TrailerExists` `GetTrailer` `getGodMode` `setGodMode` `getImmortalMode` `setImmortalMode` `GetHorn` `SetHorn` `SetVisible` `SetInvisible` `GetMaxTorque` `SetMaxTorque` `GetMaxSpeed` `SetMaxSpeed` `GetCruisingSpeed` `SetCruisingSpeed` `LimitMaxSpeed` `UnlimitMaxSpeed` `SetForcedMaxTorque` `ResetForcedMaxTorque` `SaveWeaponGroups` `RestoreWeaponGroups` |
+| Константы | `AT_ATTACK1` `AT_ATTACK2` `AT_BLOCK1` `AT_BLOCK2` `AT_DEATH1` `AT_DEATH2` `AT_MOVE1` `AT_MOVE2` `AT_PAIN1` `AT_PAIN2` `AT_RESERVED1` `AT_RESERVED2` `AT_RESERVED3` `AT_RESERVED4` `AT_STAND1` `AT_STAND2` `CINEMATIC_AIM_TO_ID` `CINEMATIC_AIM_TO_POINT` `CINEMATIC_FROM_POS` `CINEMATIC_NO_AIM` `Q_CANBEGIVEN` `Q_COMPLETED` `Q_FAILED` `Q_TAKEN` `Q_UNKNOWN` `RS_ALLY` `RS_ENEMY` `RS_NEUTRAL` `RS_OWN` |
+| Самостоятельные функции | `AddBelongToEncyclopaedia` `AddBook` `AddChildByPrototype` `AddCinematicMessage` `AddFadingMsg` `AddFadingMsgId` `AddHistory` `AddImportantFadingMsg` `AddImportantFadingMsgId` `AddItemsToPlayerRepository` `AddKnownLevel` `AddPlayerGunsWithAffix` `AddPlayerGunsWithAffixOrMoney` `AddPlayerGunsWithRandomAffix` `AddPlayerGunsWithRandomAffixOrMoney` `AddPlayerItems` `AddPlayerItemsWithBox` `AddPlayerMoney` `AddQuestItem` `AddToEncyclopaedia` `AddVehicleGunsWithAffix` `AddVehicleGunsWithRandomAffix` `AllowSave` `AutoSave` `BindKeysToScript` `BookExists` `CanQuestBeGiven` `CapturePlayerVehicle` `CinemaFiltersUse` `CompleteQuest` `CompleteQuestIfTaken` `CreateBoxWithAffixGun` `CreateCaravanTeam` `CreateHuman` `CreateNewBreakableObject` `CreateNewDummyObject` `CreateNewObject` `CreateNewObject` `CreateNewSgNodeObject` `CreateTeam` `CreateVehicle` `DisableGodMode` `Dist` `EnableAutoHelp` `EnableGodMode` `EndConversation` `exit` `exrandom` `FailQuest` `FailQuestIfTaken` `Fly` `FlyAround` `FlyCamera` `FlyCameraHoldMode` `FlyLinked` `g_EnableBloom` `g_EnableMotionBlur` `GameCamera` `GameFiltersUse` `GenerateEnemiesInPlayerZone` `GenerateRandomAffixList` `GetComputerName` `GetCurNpc` `GetEntityByID` `GetEntityByName` `GetItemsAmount` `getObj` `GetPlayerFuel` `GetPlayerHealth` `GetPlayerMaxFuel` `GetPlayerMaxHealth` `GetPlayerMoney` `GetPlayerVehicle` `GetPlayerVehicleId` `getPos` `GetTolerance` `GetVar` `HasPlayerAmountOfItems` `HasPlayerFreePlaceForItems` `HideBossIndicator` `IncTolerance` `InSet` `IsAutoHelpEnabled` `IsLevelKnown` `IsLevelVisited` `IsQuestComplete` `IsQuestFailed` `IsQuestItemPresent` `IsQuestTaken` `IsQuestTakenAndNotComplete` `IsTownWithConditionalClosing` `LeaveTown` `PlayerDead` `QuestStatus` `RAD` `ReadyCinematic` `RemoveItemsFromPlayerRepository` `RemoveObject` `RemovePlayerItem` `RemoveQuestItem` `RestoreAllToleranceStatus` `RestoreWeaponGroups` `RotationPlayerByPoints` `RuleConsole` `SaveAllToleranceStatus` `SaveWeaponGroups` `SetConditionalClosingForTown` `setPos` `SetRadarUpgrade` `setRot` `SetTolerance` `SetVar` `ShowBossIndicator` `ShowCircleOnMinimap` `ShowCircleOnMinimapByName` `ShowHelp` `ShowRectOnMinimap` `ShowSquareOnMinimap` `SpawnMessageBox` `StartCinematic` `StartConversation` `TActivate` `TakeQuest` `TDeactivate` `TeamCreateWithWarez` `CVector` `println` |
 
 ***
 
