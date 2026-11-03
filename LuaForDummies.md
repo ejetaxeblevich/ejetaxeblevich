@@ -1389,12 +1389,22 @@ function Func(a, b)
     return a + b
 end
 ```
+```lua
+local result = Func(5, 5)
+
+println(result)
+LOG(result)
+--Вывод: `10`
+```
 Уничтожить машину игрока и посмеяться в консоль:
 ```lua
 function Func()
     GetPlayerVehicle():AddModifier("hp", "= 0")
     println("hahahaha loh")
 end
+```
+```lua
+Func()
 ```
 Назначение любого скина любому физическому объекту с нужным именем:
 ```lua
@@ -1408,6 +1418,13 @@ function DoSkin(ObjName, skinNumber)
     end
     return false
 end
+```
+```lua
+local result = DoSkin("PlayerVehicle_0", 4)
+
+println(result)
+LOG(result)
+--Вывод: `true`, если выполнение было успешно, иначе `false` или ошибка выполнения
 ```
 
 ***
