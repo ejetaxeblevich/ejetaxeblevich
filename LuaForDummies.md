@@ -1355,7 +1355,7 @@ end
 Этот `return` останавливает выполнение функции в нужном месте, например по условию `if`:
 ```lua
 function Func()
-    if false then
+    if true then
         return
     end
     --Код ниже не выполнится
