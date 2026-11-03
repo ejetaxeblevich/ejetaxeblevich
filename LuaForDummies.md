@@ -1474,7 +1474,6 @@ GetPlayerVehicle():AddModifier("hp", "= 0")
 | Lua 5.0 | Средства корутин | `coroutine.create` `coroutine.resume` `coroutine.status` `coroutine.wrap` `coroutine.yield` |
 | Lua 5.0 | Средства чтения/записи | `io.close` `io.flush` `io.input` `io.lines` `io.open` `io.output` `io.read` `io.tmpfile` `io.type` `io.write` `io.stdin` `io.stdout` `io.stderr` |
 | Lua 5.0 | Системные средства | `os.clock` `os.date` `os.difftime` `os.execute` `os.exit` `os.getenv` `os.remove` `os.rename` `os.setlocale` `os.time` `os.tmpname` |
-| Lua 5.0 | Средства вывода | `print` |
 
 ### Игровые Lua-сущности:
 
